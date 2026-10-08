@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bright Future Secondary School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <svg class="logo-svg" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" aria-label="Bright Future Secondary School Logo">
+                    <circle cx="40" cy="40" r="38" fill="#0a3d62" stroke="#f9b233" stroke-width="3"/>
+                    <circle cx="40" cy="40" r="28" fill="#072a45"/>
+                    <g fill="#f9b233">
+                        <circle cx="40" cy="26" r="7"/>
+                        <rect x="37" y="10" width="6" height="9" rx="2"/>
+                        <rect x="37" y="37" width="6" height="7" rx="2"/>
+                        <rect x="20" y="23" width="9" height="6" rx="2" transform="rotate(-40 24.5 26)"/>
+                        <rect x="51" y="23" width="9" height="6" rx="2" transform="rotate(40 55.5 26)"/>
+                    </g>
+                    <path d="M26 48 Q40 41 54 48 L54 60 Q40 53 26 60 Z" fill="#f9b233"/>
+                    <path d="M40 44 L40 57" stroke="#0a3d62" stroke-width="1.8"/>
+                    <text x="40" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#f9b233">BF</text>
+                </svg>
+                <div class="logo-text">
+                    <h1>Bright Future</h1>
+                    <p>Secondary School</p>
+                </div>
+            </a>
+            <nav class="nav" id="mainNav">
+                                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you. Reach out for admissions enquiries, school visits or general information.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <div class="icon">📍</div>
+                        <div>
+                            <strong>Address</strong><br>
+                            Bright Future Secondary School<br>
+                            Kampala, Uganda
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">📞</div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            +256 700 123 456<br>
+                            +256 750 987 654
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <div>
+                            <strong>Email</strong><br>
+                            info@brightfutureschool.ac.ug<br>
+                            admissions@brightfutureschool.ac.ug
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">🕐</div>
+                        <div>
+                            <strong>Office Hours</strong><br>
+                            Monday – Friday: 7:30 AM – 5:00 PM<br>
+                            Saturday: 8:00 AM – 1:00 PM
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+256 7XX XXX XXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admissions">Admissions Enquiry</option>
+                                <option value="visit">School Visit</option>
+                                <option value="fees">Fees Information</option>
+                                <option value="general">General Enquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <svg class="logo-svg small" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="40" r="38" fill="#0a3d62" stroke="#f9b233" stroke-width="3"/>
+                            <circle cx="40" cy="40" r="28" fill="#072a45"/>
+                            <g fill="#f9b233"><circle cx="40" cy="26" r="7"/></g>
+                            <path d="M26 48 Q40 41 54 48 L54 60 Q40 53 26 60 Z" fill="#f9b233"/>
+                            <text x="40" y="73" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#f9b233">BF</text>
+                        </svg>
+                        <div>
+                            <h3>Bright Future Secondary School</h3>
+                            <p>Empowering students to achieve academic excellence and become responsible citizens of Uganda.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                                        <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Information</h4>
+                    <ul class="contact-info">
+                        <li>📍 Kampala, Uganda</li>
+                        <li>📞 +256 700 123 456</li>
+                        <li>✉️ info@brightfutureschool.ac.ug</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>School Hours</h4>
+                    <p>Monday – Friday: 7:30 AM – 5:00 PM</p>
+                    <p>Saturday: 8:00 AM – 1:00 PM</p>
+                    <p class="motto">Motto: <em>“Excellence, Integrity, Service”</em></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bright Future Secondary School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menuToggle');
+        const nav = document.getElementById('mainNav');
+        toggle.addEventListener('click', () => nav.classList.toggle('open'));
+        document.querySelectorAll('.nav-list a').forEach(link => {
+            link.addEventListener('click', () => nav.classList.remove('open'));
+        });
+    </script>
+</body>
+</html>
